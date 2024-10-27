@@ -1,0 +1,17 @@
+ml_models: 
+#   - LR
+#   - SVM
+  - RandomForest
+#   - ExtraTrees
+  - XGBoost
+  - LightGBM
+#   - MLP
+label_file: data\label-RND-0.csv
+model_root: E:\20230904-LiuHui\Task1\models
+model_root_sup: E:\20230904-LiuHui\Task1\models_sup
+clinic_file: E:\20230904-LiuHui\clinic.csv
+survival_file: E:\20230904-LiuHui\survival.csv
+duration_col: duration
+event_col: event
+task_name: PathCox
+DISABLE_VIDEO: True
